@@ -11,20 +11,12 @@ This repository contains a Python script to calculate the amount of powder neede
 
 ## Installation
 
-1. Clone the repository:
-
    ```bash
    git clone https://github.com/your-username/powder-dispensing-calculator.git
    cd powder-dispensing-calculator
-
-2. python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-
-3. pip install -r requirements.txt
-
-4. python powder_calculator.py
-
-5. python powder_calculator.py --gui
+   pip install -r requirements.txt
+   python powder_calculator.py
+   python powder_calculator.py --gui
 
 
 
@@ -32,7 +24,7 @@ This repository contains a Python script to calculate the amount of powder neede
    $ python powder_calculator.py
    Powder Dispensing Calculation
    ----------------------------
-   This program calculates the amount of powder needed based on the area you input.
+   This program calculates the amount of powder needed based on your input area.
    The calibration factor is: 1 mm² = 1 gram
 
    Enter the desired area (e.g., '5 mm2' or '0.5 cm2'): 5 mm2
